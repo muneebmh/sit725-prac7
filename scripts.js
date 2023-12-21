@@ -1,3 +1,4 @@
+/*
 const addCards = (items) => {
     items.forEach(item => {
         let itemToAppend = '<div class="col s4 center-align">'+
@@ -44,12 +45,14 @@ function getAllCats() {
         }
     });
 }
+*/
 
 let socket = io();
 socket.on('number',(msg)=>{
     console.log('Random Number: ' + msg);
 });
 
+/*
 $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('#formSubmit').click(()=>{
@@ -59,3 +62,4 @@ $(document).ready(function(){
     getAllCats();
     console.log('ready');
 });
+*/

@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended: false}));
 app.use('/api/cat',router);
 
 io.on('connection',(socket)=>{
-    console.log('something');
+    console.log('User Connected');
     socket.on('disconnect', () => {
         console.log('user disconnected');
     });
